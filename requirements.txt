@@ -1,0 +1,20 @@
+transformers                         # Bibliothèque pour les modèles de langage pré-entraînés
+transformers[sentencepiece]          # Variante de Transformers pour les modèles nécessitant SentencePiece, un tokenizer efficace.
+datasets                             # Bibliothèque pour télécharger et préparer des ensembles de données NLP.
+sacrebleu                            # Outil d'évaluation pour mesurer la qualité des traductions automatiques.
+rouge_score                          # Bibliothèque pour calculer les scores ROUGE (utilisés pour évaluer les résumés textuels).
+py7zr                                # Bibliothèque pour la manipulation des archives 7z (compression/décompression).
+pandas                               # Bibliothèque pour la manipulation et l'analyse de données tabulaires.
+nltk                                 # Toolkit pour le traitement du langage naturel (prétraitement des textes, tokenisation, etc.).
+tqdm                                 # Outil pour afficher des barres de progression dans les boucles.
+PyYAML                               # Bibliothèque pour lire et écrire des fichiers au format YAML.
+matplotlib                           # Bibliothèque pour créer des visualisations de données (graphes, diagrammes, etc.).
+torch                                # PyTorch, framework de deep learning pour le développement de modèles d'apprentissage profond.
+boto3                                # Bibliothèque AWS SDK pour interagir avec les services AWS (comme S3).
+mypy-boto3-s3                        # Stubs pour Boto3, permettant l'autocomplétion et la vérification des types pour AWS S3.
+python-box==6.0.2                    # Structure Python permettant de manipuler des dictionnaires comme des objets (dot notation).
+ensure==1.0.2                        # Aide à vérifier les préconditions dans le code (type, contenu, etc.).
+fastapi==0.78.0                      # Framework web rapide pour développer des APIs avec Python.
+uvicorn==0.18.3                      # Serveur ASGI performant pour exécuter des applications FastAPI.
+Jinja2==3.1.2                        # Moteur de templating utilisé pour générer des fichiers HTML dynamiques ou d'autres contenus.
+-e .                                 # Référence au projet local (dossier courant) pour installer ses dépendances via `setup.py`.
