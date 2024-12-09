@@ -1,5 +1,5 @@
 from NLP_TEXT_SUMMARIZER.config.configuration import ConfigurationManager
-from NLP_TEXT_SUMMARIZER.conponents.model_evaluation import ModelEvaluation
+from NLP_TEXT_SUMMARIZER.components.model_evaluation import ModelEvaluation
 from NLP_TEXT_SUMMARIZER.logging import logger
 
 

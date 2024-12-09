@@ -1,5 +1,5 @@
 from NLP_TEXT_SUMMARIZER.config.configuration import ConfigurationManager
-from NLP_TEXT_SUMMARIZER.conponents.data_ingestion import DataIngestion
+from NLP_TEXT_SUMMARIZER.components.data_ingestion import DataIngestion
 from NLP_TEXT_SUMMARIZER.logging import logger
 
 

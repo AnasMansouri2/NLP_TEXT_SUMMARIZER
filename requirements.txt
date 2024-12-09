@@ -18,3 +18,4 @@ fastapi==0.78.0                      # Framework web rapide pour développer des
 uvicorn==0.18.3                      # Serveur ASGI performant pour exécuter des applications FastAPI.
 Jinja2==3.1.2                        # Moteur de templating utilisé pour générer des fichiers HTML dynamiques ou d'autres contenus.
 -e .                                 # Référence au projet local (dossier courant) pour installer ses dépendances via `setup.py`.
+evaluate                              # Bibliothèque pour évaluer les modèles NLP avec différentes métriques comme ROUGE.

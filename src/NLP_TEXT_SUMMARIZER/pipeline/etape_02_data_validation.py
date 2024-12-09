@@ -1,5 +1,5 @@
 from NLP_TEXT_SUMMARIZER.config.configuration import ConfigurationManager
-from NLP_TEXT_SUMMARIZER.conponents.data_validation import DataValiadtion
+from NLP_TEXT_SUMMARIZER.components.data_validation import DataValiadtion
 from NLP_TEXT_SUMMARIZER.logging import logger
 
 
